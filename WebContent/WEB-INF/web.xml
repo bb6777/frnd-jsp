@@ -9,4 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+  	<description></description>
+  	<display-name>Frndjspchk</display-name>
+  	<servlet-name>Frndjspchk</servlet-name>
+  	<servlet-class>Frndjspchk</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Frndjspchk</servlet-name>
+  	<url-pattern>/Frndjspchk</url-pattern>
+  </servlet-mapping>
 </web-app>
